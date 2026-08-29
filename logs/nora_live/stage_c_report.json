@@ -1,0 +1,61 @@
+{
+  "stage": "C",
+  "fixture": false,
+  "question": "Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek at Centerton on the same WY2019 to 2020 split?",
+  "lag_days": 1,
+  "lag1_locked": true,
+  "skill": {
+    "persistence_target": {
+      "rmse_cfs": 1794.5698760698078,
+      "mae_cfs": 809.6087484811665
+    },
+    "nora_plus_fall_creek": {
+      "rmse_cfs": 1734.2664542264142,
+      "mae_cfs": 790.580092650104,
+      "coef_nora": 0.6333433380977983,
+      "coef_fall_creek": 3.5236314814666017,
+      "intercept": 702.7527464409163,
+      "lag_days": 1
+    },
+    "nora_fc_eagle": {
+      "rmse_cfs": 1607.310143497027,
+      "mae_cfs": 822.939471722204,
+      "coef_nora": 0.7262985089515196,
+      "coef_fall_creek": 1.2601926438496986,
+      "coef_eagle_creek": 3.2672273992987413,
+      "intercept": 803.249028317864,
+      "lag_days": 1
+    },
+    "nwm_cited": {
+      "rmse_cfs": 2414.32,
+      "source": "fa2e315"
+    }
+  },
+  "verdict": "eagle_beats_nora_fc_and_persistence",
+  "predictor_sites": [
+    "03351000",
+    "03352500",
+    "03353500"
+  ],
+  "label_sites": [
+    "03354000"
+  ],
+  "eagle_creek_name": "EAGLE CREEK AT INDIANAPOLIS, IN",
+  "fall_creek_centerton_nora_fc_cited": 1734.27,
+  "fall_creek_citation": "962d503",
+  "nwm_centerton_rmse_cfs_cited": 2414.32,
+  "nwm_citation": "fa2e315",
+  "p_sfha_feature": false,
+  "figures": [
+    "hydrograph.png",
+    "contributions.png"
+  ],
+  "n_days": 1553,
+  "source": "nwis_dv_00060",
+  "sites": [
+    "03351000",
+    "03352500",
+    "03353500",
+    "03354000"
+  ]
+}

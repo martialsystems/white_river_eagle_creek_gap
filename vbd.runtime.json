@@ -1,0 +1,22 @@
+{
+  "runtime_checks": [
+    {
+      "id": "unit-tests",
+      "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
+      "timeout_s": 120,
+      "paths": ["src/**", "tests/**", "scripts/**", "ecgapforge/**", "requirements.txt", "vbd.runtime.json"]
+    },
+    {
+      "id": "fixture-path",
+      "argv": [".venv/bin/python", "scripts/run_fixture.py", "logs/stage0_fixture"],
+      "timeout_s": 60,
+      "paths": ["src/**", "scripts/**", "tests/**"]
+    },
+    {
+      "id": "ecgapforge-sanity",
+      "argv": [".venv/bin/python", "ecgapforge/scripts/sanity_ecgapforge.py"],
+      "timeout_s": 60,
+      "paths": ["ecgapforge/**", "tests/test_ecgapforge_laws.py"]
+    }
+  ]
+}

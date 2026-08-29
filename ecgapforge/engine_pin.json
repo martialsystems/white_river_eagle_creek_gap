@@ -1,0 +1,11 @@
+{
+  "engine": "graphforge",
+  "github": "martialsystems/graphforge",
+  "track": "main",
+  "remote": "origin",
+  "min_version": "0.6.0",
+  "policy": "report_only",
+  "local_candidates": ["~/graphforge"],
+  "require_product_laws": true,
+  "note": "EcGapForge: no p_sfha, lag-1 locked, Eagle Creek 00060 fetch-or-stop (empty or late), no invented tributary, no NWM download. Verify-before-done is the finish gate."
+}
