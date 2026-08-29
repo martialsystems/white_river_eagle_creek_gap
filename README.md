@@ -2,7 +2,7 @@
 
 Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek at Centerton on the same WY2019 to 2020 split?
 
-Yes on RMSE. Live skill is in `logs/nora_live/`. Holdout RMSE: **1,607** vs **1,734** vs **1,795** vs cited NWM **2,414** (`fa2e315`, not downloaded again). Nora-plus-Fall-Creek (1,734) is the control, and it matches the locked Fall Creek tree (`962d503`) on this same 00060 matrix. The RMSE increment is Eagle Creek, not more White River.
+Yes on RMSE. Science lock: `8e4fdca`. Live skill is in `logs/nora_live/`. Holdout RMSE: **1,607** vs **1,734** vs **1,795** vs cited NWM **2,414** (`fa2e315`, not downloaded again). Nora-plus-Fall-Creek (1,734) is the control, and it matches the locked Fall Creek tree (`962d503`) on this same 00060 matrix. The RMSE increment is Eagle Creek, not more White River.
 
 MAE went the other way: **823** (three-feature) vs **791** (Nora-plus-Fall-Creek) vs **810** (Centerton lag 1 d). RMSE improved; typical error did not. That is rain-stage honesty, not a closed reach. White Lick and the rest of that stretch are still open.
 

@@ -1,6 +1,6 @@
 # Operator checklist
 
-1. Live RMSE is 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. MAE 823 vs 791. Do not re-fit.
+1. Live science is `8e4fdca`. RMSE 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. MAE 823 vs 791. Do not re-fit.
 2. Eagle Creek site is 03353500 EAGLE CREEK AT INDIANAPOLIS, IN. Below-reservoir 03353451 starts late. Little Eagle is a different creek.
 3. Lag is 1 calendar day. Train-only OLS. Same holdout as Fall Creek / NWM-error / Anderson-Nora.
 4. Control is Nora-plus-Fall-Creek (matches 962d503). Cite NWM 2,414. Do not download NWM.

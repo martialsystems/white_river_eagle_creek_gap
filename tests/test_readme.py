@@ -18,6 +18,7 @@ def test_readme_opens_with_the_question() -> None:
     assert "03351000" in text
     assert "03354000" in text
     assert "fa2e315" in text
+    assert "8e4fdca" in text
     assert "962d503" in text
     assert "1,607" in text
     assert "1,734" in text

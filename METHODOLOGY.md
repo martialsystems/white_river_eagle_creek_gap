@@ -2,7 +2,7 @@
 
 Question: Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek at Centerton on the same WY2019 to 2020 split?
 
-Yes on RMSE: 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. Nora-plus-Fall-Creek matches locked `962d503` on this matrix. MAE went the other way: 823 vs 791 vs 810. RMSE increment is Eagle Creek. Typical error did not improve. White Lick still sits on that stretch.
+Live science is `8e4fdca`. Yes on RMSE: 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. Nora-plus-Fall-Creek matches locked `962d503` on this matrix. MAE went the other way: 823 vs 791 vs 810. RMSE increment is Eagle Creek. Typical error did not improve. White Lick still sits on that stretch.
 
 Features are lag-1 USGS daily mean 00060 at Nora (03351000), Fall Creek at Millersville (03352500), and EAGLE CREEK AT INDIANAPOLIS, IN (03353500). Label is WHITE RIVER NEAR CENTERTON, IN (03354000). Persistence is lag-1 00060 at Centerton. Nora-plus-Fall-Creek is the two-feature control. Indianapolis is not a feature.
 

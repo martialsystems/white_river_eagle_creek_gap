@@ -2,7 +2,7 @@
 
 Public GitHub. MIT. Question: Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek at Centerton on the same WY2019 to 2020 split?
 
-Yes on RMSE: 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. MAE 823 vs 791 vs 810. Nora-plus-Fall-Creek is the control and matches `962d503`. Not a closed reach.
+Science lock: `8e4fdca`. Yes on RMSE: 1,607 vs 1,734 vs 1,795 vs cited NWM 2,414. MAE 823 vs 791 vs 810. Nora-plus-Fall-Creek is the control and matches `962d503`. Not a closed reach.
 
 Site: 03353500 EAGLE CREEK AT INDIANAPOLIS, IN. 03353451 starts late. Little Eagle Creek is a different creek. Empty or late 00060 stops. No alternate.
 
