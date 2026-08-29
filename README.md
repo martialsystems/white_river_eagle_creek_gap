@@ -66,3 +66,5 @@ Two figures max. Empty or late Eagle Creek 00060 stops (`run_live.py` exit 2).
 | [CHECKLIST.md](CHECKLIST.md) | Operator list |
 | `src/ecgap/` | NWIS 00060, lag-1 OLS, skill, figures |
 | `ecgapforge/` | GraphForge pin |
+
+Lanes (maps / White River Q / precip): https://github.com/martialsystems
