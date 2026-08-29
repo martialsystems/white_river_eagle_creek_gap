@@ -1,10 +1,12 @@
 # White River Eagle Creek vs Indianapolis to Centerton gap
 
-Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek at Centerton on the same WY2019 to 2020 split?
+Does adding Eagle Creek beat Nora plus Fall Creek at Centerton?
 
-Yes on RMSE. Science lock: `8e4fdca`. Live skill is in `logs/nora_live/`. Holdout RMSE: **1,607** vs **1,734** vs **1,795** vs cited NWM **2,414** (`fa2e315`, not downloaded again). Nora-plus-Fall-Creek (1,734) is the control, and it matches the locked Fall Creek tree (`962d503`) on this same 00060 matrix. The RMSE increment is Eagle Creek, not more White River.
+Most days, no. Nora + Fall Creek is still closer (MAE 791 cfs vs 823 if you add Eagle Creek). On the big days, yes: adding Eagle Creek drops RMSE from 1,734 to 1,607. Persistence at Centerton is 1,795. NWM is 2,414 (`fa2e315`).
 
-MAE went the other way: **823** (three-feature) vs **791** (Nora-plus-Fall-Creek) vs **810** (Centerton lag 1 d). RMSE improved; typical error did not. That is rain-stage honesty, not a closed reach. White Lick and the rest of that stretch are still open.
+So this is not "we found the missing tributary." It is "Eagle Creek helps the peaks; it does not beat Nora + Fall Creek on a normal day."
+
+Science lock: `8e4fdca`. The 1,734 two-feature RMSE matches `962d503` on this matrix. That tree is not restamped. This tree does not read `p_sfha`.
 
 Eagle Creek site: **03353500** EAGLE CREEK AT INDIANAPOLIS, IN. Complete daily 00060 on 2016-10-01 to 2020-12-31. **03353451** EAGLE CREEK BELOW RESERVOIR AT INDIANAPOLIS, IN starts 2016-10-26, so it cannot fill train. **03353200** EAGLE CREEK AT ZIONSVILLE, IN has three gaps. **03353600** LITTLE EAGLE CREEK AT SPEEDWAY, IN is a different creek. Empty or late 03353500 00060 stops. No alternate site.
 

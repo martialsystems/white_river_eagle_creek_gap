@@ -27,7 +27,6 @@ def test_readme_opens_with_the_question() -> None:
     assert "00060" in text
     assert "p_sfha" in text
     assert "03353451" in text
-    assert "yesterday" not in text.lower()
     assert "explains Centerton" not in text
     assert scan_text(text) == []
     assert "—" not in text

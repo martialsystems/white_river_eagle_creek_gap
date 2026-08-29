@@ -5,10 +5,7 @@ from __future__ import annotations
 
 from datetime import date
 
-QUESTION = (
-    "Does lagged Eagle Creek (Q) (plus Nora and Fall Creek) beat Nora-plus-Fall-Creek "
-    "at Centerton on the same WY2019 to 2020 split?"
-)
+QUESTION = "Does adding Eagle Creek beat Nora plus Fall Creek at Centerton?"
 
 NORA_ID = "03351000"
 NORA_NAME = "WHITE RIVER NEAR NORA, IN"
