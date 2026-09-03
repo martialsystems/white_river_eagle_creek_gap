@@ -67,4 +67,4 @@ Two figures max. Empty or late Eagle Creek 00060 stops (`run_live.py` exit 2).
 | `src/ecgap/` | NWIS 00060, lag-1 OLS, skill, figures |
 | `ecgapforge/` | GraphForge pin |
 
-[![Open the research console](https://img.shields.io/badge/Open_the_research_console-2e7d32?style=for-the-badge)](https://martialsystems.github.io/indiana_wx_pages/)
+Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
